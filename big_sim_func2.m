@@ -1,4 +1,4 @@
-function big_sim_func2()
+function big_sim_gluc()
 
     % Parameters
     b1 = 0.0059; %Insulin independent glucose utilization
