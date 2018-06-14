@@ -43,9 +43,13 @@ function big_sim_func2()
     s = 0.03; %Incretin constant secretion (pM/min)
     v = 15; %glucose distribution volume (liters)
     
+    % Define initial values for each equation
     y0 = [4.0; 14.0; 5.0; 60.0; 10.0; 34.0; 3.0; 2.5; 53.19; 0.4; 120; 200; 20; 135];
+    
+    % Define time span in minutes
     tspan = [0 1000];
     
+    % Solve ODEs using ode15s
     [t,y] = ode15s(@f,tspan,y0); %ode45 also works
      
     % Create figure
@@ -86,6 +90,7 @@ function big_sim_func2()
     legend(axes1,'show');
     legend1 = legend(axes1,'show');
     
+    % Make subplots to graph solutions to diff eqs individually
     figure
     subplot(7,3,1)
     plot(t,y(:,1))
