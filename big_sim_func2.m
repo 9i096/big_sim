@@ -90,8 +90,6 @@ function big_sim_func2()
     % Create legend
     legend(axes1,'show');
     legend1 = legend(axes1,'show');
-    %set(legend1,...
-        %'Position',[0.918685121107267 0.626582278481012 0.141868512110727 0.298523206751055]);
     
     figure
     subplot(7,3,1)
