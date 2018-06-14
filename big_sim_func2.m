@@ -33,12 +33,7 @@ function big_sim_func2()
     f1 = 0.9; %Fraction of absorbed glucose
     Gb = 5.0; %Fasting plasma glucose (Basal level; mM)
     Ge = 5.0; %Glucose threshold value (mM)
-    %GLUT1 = 
     Ib = 60.0; %Fasting plasma insulin (Basal level; pM)
-    %k8 = 
-    %KmG1 = 
-    %KmG4 = 
-    %k_gluc =
     l = 0.006; %Glucose in stomach dependent decay rate of ghrelin (mmol^-1)
     m = 0.04; %Insulin dependent decay rate of ghrelin (pM^-1)
     p2U = 0.033; %Interstitial insulin rate of change (min^-1)
