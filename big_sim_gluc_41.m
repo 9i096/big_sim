@@ -304,7 +304,7 @@ function big_sim_gluc_41()
                  % (2) intestinal glucose transit (L)
                  b8*y(1) - b10*y(2)
                  
-                 %(3) dynamics of plasma glucose concentration (G)
+                 % (3) dynamics of plasma glucose concentration (G)
                  f1*((b10*y(2))/v) + f1*((b5*y(7))/v) - b1*y(3) - b3*y(4)*y(3)
                  
                  % (4) dynamics of plasma insulin concentration (I)
